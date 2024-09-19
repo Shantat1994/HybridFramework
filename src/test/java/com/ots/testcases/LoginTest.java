@@ -26,7 +26,7 @@ public class LoginTest extends Base
 	{
 		login=new LoginPage(driver);
 		
-		Assert.assertFalse(login.isLinkVisible(),"link not present");
+		Assert.assertTrue(login.isLinkVisible(),"link not present");
 	}
 	
 }
